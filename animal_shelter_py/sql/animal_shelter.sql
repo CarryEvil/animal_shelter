@@ -26,8 +26,8 @@ SET time_zone = "+00:00";
 -- 表的结构 `animal`
 --
 
-CREATE TABLE `animal` (
-  `animal_id` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+CREATE TABLE `animals` (
+  `id` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `animal_subid` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   `animal_area_pkid` int(11) NOT NULL,
   `animal_shelter_pkid` int(11) NOT NULL,
